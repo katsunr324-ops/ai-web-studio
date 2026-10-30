@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Web Studio | AIを活用したスピード＆高品質なホームページ制作</title>
+  <meta name="description" content="Claude Codeを活用し、短納期・適正価格で高品質なホームページを制作します。個人事業主・中小企業さまのWeb集客をサポート。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== ヘッダー ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <span class="logo__mark">AI</span>
+        <span class="logo__text">Web Studio</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#features" class="nav__link">強み</a></li>
+          <li><a href="#services" class="nav__link">サービス</a></li>
+          <li><a href="#pricing" class="nav__link">料金</a></li>
+          <li><a href="#flow" class="nav__link">制作の流れ</a></li>
+          <li><a href="#faq" class="nav__link">よくある質問</a></li>
+          <li><a href="#contact" class="btn btn--primary btn--sm">無料相談</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== ヒーロー ===== -->
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="blob blob--1"></span>
+        <span class="blob blob--2"></span>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__label">AI × プロのディレクション</p>
+          <h1 class="hero__title">
+            想いをカタチに。<br>
+            <span class="gradient-text">最短7日</span>で<br class="sp-only">
+            ホームページを。
+          </h1>
+          <p class="hero__lead">
+            最先端のAI開発ツール「Claude Code」を活用し、<br class="pc-only">
+            スピード・品質・価格のすべてにこだわったホームページを制作します。
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary btn--lg">無料で相談する</a>
+            <a href="#pricing" class="btn btn--ghost btn--lg">料金を見る</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <!-- 完成サイトのイメージ（PC・スマホ） -->
+          <div class="mockup">
+            <div class="mockup__pc">
+              <div class="mockup__screen">
+                <div class="mockup__bar"><span></span><span></span><span></span></div>
+                <div class="sample">
+                  <div class="sample__nav">
+                    <p class="sample__logo">Cafe Hinata</p>
+                    <ul class="sample__menu"><li>メニュー</li><li>店舗情報</li><li>アクセス</li></ul>
+                  </div>
+                  <div class="sample__hero">
+                    <p class="sample__title">ひなたで、ひと休み。</p>
+                    <p class="sample__btn">ご予約はこちら</p>
+                  </div>
+                  <div class="sample__cards">
+                    <div class="sample__card"><span class="sample__img">☕</span><p>こだわりの珈琲</p></div>
+                    <div class="sample__card"><span class="sample__img">🍰</span><p>手づくりケーキ</p></div>
+                    <div class="sample__card"><span class="sample__img">🥪</span><p>季節のランチ</p></div>
+                  </div>
+                </div>
+              </div>
+              <div class="mockup__stand"></div>
+            </div>
+
+            <div class="mockup__phone">
+              <div class="sample sample--sp">
+                <div class="sample__nav">
+                  <p class="sample__logo">Cafe Hinata</p>
+                  <span class="sample__burger"></span>
+                </div>
+                <div class="sample__hero">
+                  <p class="sample__title">ひなたで、<br>ひと休み。</p>
+                  <p class="sample__btn">ご予約</p>
+                </div>
+                <div class="sample__card"><span class="sample__img">☕</span><p>こだわりの珈琲</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="stats">
+          <li class="stats__item">
+            <p class="stats__num"><span class="counter" data-target="7">0</span><small>日〜</small></p>
+            <p class="stats__label">最短納期</p>
+          </li>
+          <li class="stats__item">
+            <p class="stats__num"><span class="counter" data-target="100">0</span><small>%</small></p>
+            <p class="stats__label">スマホ対応</p>
+          </li>
+          <li class="stats__item">
+            <p class="stats__num"><span class="counter" data-target="50">0</span><small>%OFF</small></p>
+            <p class="stats__label">一般的な制作費と比べて</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 強み ===== -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section__head fade-in">
+          <p class="section__en">FEATURES</p>
+          <h2 class="section__title">選ばれる3つの理由</h2>
+        </div>
+
+        <div class="features">
+          <article class="feature-card fade-in">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3 class="feature-card__title">圧倒的なスピード</h3>
+            <p class="feature-card__text">
+              AIがコーディングを高速化。従来1〜2か月かかっていた制作を、最短7日で公開まで導きます。
+            </p>
+          </article>
+          <article class="feature-card fade-in">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12.6 2.6A2 2 0 0 0 11.2 2H4a2 2 0 0 0-2 2v7.2a2 2 0 0 0 .6 1.4l8.7 8.7a2.4 2.4 0 0 0 3.4 0l6.6-6.6a2.4 2.4 0 0 0 0-3.4z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
+            </div>
+            <h3 class="feature-card__title">適正でわかりやすい価格</h3>
+            <p class="feature-card__text">
+              作業時間の削減分をお客さまに還元。追加費用が発生しにくい明朗なプランをご用意しています。
+            </p>
+          </article>
+          <article class="feature-card fade-in">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.7 9a1 1 0 0 1-.6 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.2-2.7a1.2 1.2 0 0 1 1.6 0C14.5 3.8 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3 class="feature-card__title">人の目で仕上げる品質</h3>
+            <p class="feature-card__text">
+              AI任せにはしません。デザイン・文章・表示速度・SEOまで、人が丁寧にチェックして納品します。
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== サービス ===== -->
+    <section class="section section--gray" id="services">
+      <div class="container">
+        <div class="section__head fade-in">
+          <p class="section__en">SERVICES</p>
+          <h2 class="section__title">サービス内容</h2>
+        </div>
+
+        <div class="services">
+          <div class="service fade-in">
+            <span class="service__num">01</span>
+            <div>
+              <h3 class="service__title">コーポレートサイト制作</h3>
+              <p class="service__text">会社・店舗の「顔」となるサイトを。信頼感と見やすさを両立したデザインで制作します。</p>
+            </div>
+          </div>
+          <div class="service fade-in">
+            <span class="service__num">02</span>
+            <div>
+              <h3 class="service__title">ランディングページ制作</h3>
+              <p class="service__text">商品・サービスの申込みにつなげる1枚もののページ。成果を意識した構成をご提案します。</p>
+            </div>
+          </div>
+          <div class="service fade-in">
+            <span class="service__num">03</span>
+            <div>
+              <h3 class="service__title">既存サイトのリニューアル</h3>
+              <p class="service__text">古くなったサイトをスマホ対応・高速化。今の内容を活かしながら生まれ変わらせます。</p>
+            </div>
+          </div>
+          <div class="service fade-in">
+            <span class="service__num">04</span>
+            <div>
+              <h3 class="service__title">公開後の保守・更新</h3>
+              <p class="service__text">文章や画像の差し替え、お知らせの更新など、公開後も気軽にご依頼いただけます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 料金 ===== -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__head fade-in">
+          <p class="section__en">PRICING</p>
+          <h2 class="section__title">料金プラン</h2>
+          <p class="section__desc">すべて税込価格です。ドメイン・サーバーの取得代行も承ります。</p>
+        </div>
+
+        <div class="plans">
+          <div class="plan fade-in">
+            <h3 class="plan__name">ライト</h3>
+            <p class="plan__target">まずは名刺代わりのサイトを</p>
+            <p class="plan__price"><span>¥</span>49,800</p>
+            <ul class="plan__list">
+              <li>1ページ（LP形式）</li>
+              <li>スマホ対応</li>
+              <li>お問い合わせフォーム</li>
+              <li>納期 最短7日</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--block" data-plan="ライト">このプランで相談</a>
+          </div>
+
+          <div class="plan plan--recommend fade-in">
+            <p class="plan__badge">人気No.1</p>
+            <h3 class="plan__name">スタンダード</h3>
+            <p class="plan__target">集客もしっかり行いたい方に</p>
+            <p class="plan__price"><span>¥</span>98,000</p>
+            <ul class="plan__list">
+              <li>5ページまで</li>
+              <li>スマホ対応</li>
+              <li>お問い合わせフォーム</li>
+              <li>基本的なSEO対策</li>
+              <li>Googleマップ埋め込み</li>
+              <li>納期 最短14日</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--block" data-plan="スタンダード">このプランで相談</a>
+          </div>
+
+          <div class="plan fade-in">
+            <h3 class="plan__name">プレミアム</h3>
+            <p class="plan__target">本格的なWeb戦略を</p>
+            <p class="plan__price"><span>¥</span>198,000<small>〜</small></p>
+            <ul class="plan__list">
+              <li>10ページ以上</li>
+              <li>オリジナルデザイン</li>
+              <li>ブログ・お知らせ機能</li>
+              <li>アクセス解析の設定</li>
+              <li>公開後1か月の無料修正</li>
+              <li>納期 要相談</li>
+            </ul>
+            <a href="#contact" class="btn btn--outline btn--block" data-plan="プレミアム">このプランで相談</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 制作の流れ ===== -->
+    <section class="section section--gray" id="flow">
+      <div class="container">
+        <div class="section__head fade-in">
+          <p class="section__en">FLOW</p>
+          <h2 class="section__title">制作の流れ</h2>
+        </div>
+
+        <ol class="flow">
+          <li class="flow__step fade-in">
+            <span class="flow__num">STEP 1</span>
+            <h3 class="flow__title">無料相談</h3>
+            <p class="flow__text">フォームからお気軽にご連絡ください。ご要望やイメージをお伺いします。</p>
+          </li>
+          <li class="flow__step fade-in">
+            <span class="flow__num">STEP 2</span>
+            <h3 class="flow__title">お見積り・ご契約</h3>
+            <p class="flow__text">内容に合わせて最適なプランとお見積りをご提示します。</p>
+          </li>
+          <li class="flow__step fade-in">
+            <span class="flow__num">STEP 3</span>
+            <h3 class="flow__title">デザイン・制作</h3>
+            <p class="flow__text">AIを活用してスピーディーに制作。途中経過も随時ご確認いただけます。</p>
+          </li>
+          <li class="flow__step fade-in">
+            <span class="flow__num">STEP 4</span>
+            <h3 class="flow__title">確認・公開</h3>
+            <p class="flow__text">最終チェック後、いよいよ公開。公開後のサポートもお任せください。</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== よくある質問 ===== -->
+    <section class="section" id="faq">
+      <div class="container container--narrow">
+        <div class="section__head fade-in">
+          <p class="section__en">FAQ</p>
+          <h2 class="section__title">よくある質問</h2>
+        </div>
+
+        <div class="faq">
+          <div class="faq__item fade-in">
+            <button class="faq__q" aria-expanded="false">
+              AIで作ったサイトは品質が心配です。
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__a">
+              <p>AIはあくまで制作を効率化する道具です。構成・デザイン・文章・動作確認はすべて人がチェックし、責任を持って納品いたします。</p>
+            </div>
+          </div>
+          <div class="faq__item fade-in">
+            <button class="faq__q" aria-expanded="false">
+              パソコンに詳しくなくても大丈夫ですか？
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__a">
+              <p>もちろん大丈夫です。専門用語は使わず、わかりやすくご説明します。ドメインやサーバーの準備も代行可能です。</p>
+            </div>
+          </div>
+          <div class="faq__item fade-in">
+            <button class="faq__q" aria-expanded="false">
+              文章や写真が用意できていません。
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__a">
+              <p>ヒアリングをもとに文章の作成をお手伝いします。写真はフリー素材のご提案も可能ですので、ご安心ください。</p>
+            </div>
+          </div>
+          <div class="faq__item fade-in">
+            <button class="faq__q" aria-expanded="false">
+              公開後に自分で更新できますか？
+              <span class="faq__icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq__a">
+              <p>ご希望に応じて、更新しやすい仕組みをご提案します。更新作業を丸ごとお任せいただける保守プランもございます。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== お問い合わせ ===== -->
+    <section class="section section--contact" id="contact">
+      <div class="container container--narrow">
+        <div class="section__head fade-in">
+          <p class="section__en">CONTACT</p>
+          <h2 class="section__title">無料相談・お問い合わせ</h2>
+          <p class="section__desc">2営業日以内にご返信いたします。お気軽にご相談ください。</p>
+        </div>
+
+        <form class="form fade-in" id="contactForm" novalidate>
+          <div class="form__row">
+            <label for="name" class="form__label">お名前<span class="form__required">必須</span></label>
+            <input type="text" id="name" name="name" class="form__input" placeholder="山田 太郎" required>
+            <p class="form__error" data-for="name"></p>
+          </div>
+
+          <div class="form__row">
+            <label for="email" class="form__label">メールアドレス<span class="form__required">必須</span></label>
+            <input type="email" id="email" name="email" class="form__input" placeholder="example@mail.com" required>
+            <p class="form__error" data-for="email"></p>
+          </div>
+
+          <div class="form__row">
+            <label for="plan" class="form__label">ご希望のプラン</label>
+            <select id="plan" name="plan" class="form__input">
+              <option value="">未定・相談したい</option>
+              <option value="ライト">ライト</option>
+              <option value="スタンダード">スタンダード</option>
+              <option value="プレミアム">プレミアム</option>
+            </select>
+          </div>
+
+          <div class="form__row">
+            <label for="message" class="form__label">ご相談内容<span class="form__required">必須</span></label>
+            <textarea id="message" name="message" class="form__input" rows="6" placeholder="作りたいサイトのイメージ、ご予算、ご希望の納期などをご記入ください。" required></textarea>
+            <p class="form__error" data-for="message"></p>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--lg btn--block">送信する</button>
+          <p class="form__success" id="formSuccess" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== フッター ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="logo logo--light">
+        <span class="logo__mark">AI</span>
+        <span class="logo__text">Web Studio</span>
+      </a>
+      <p class="footer__copy">&copy; <span id="year"></span> AI Web Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a href="#top" class="to-top" id="toTop" aria-label="ページの先頭へ">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
